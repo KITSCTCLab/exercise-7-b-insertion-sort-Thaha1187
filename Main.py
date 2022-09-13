@@ -9,7 +9,7 @@ def insertionSort(A) -> List[int]:
       A[j+1] = A[j]
       j = j-1
     A[j+1] = v
-  return v
+  return A[j+1]
 
 # data = [9, 5, 1, 4, 3]
 input_data = input()
